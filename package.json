@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-css-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistersakil/tailwind-css-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mistersakil/tailwind-css-practice/issues"
+  },
+  "homepage": "https://github.com/mistersakil/tailwind-css-practice#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
