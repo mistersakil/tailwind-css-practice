@@ -9,6 +9,10 @@
   ring-white
   rounded-full;
 }
+.navLink {
+  @apply py-2 px-4 capitalize text-sm font-bold text-blue-700 hover:bg-blue-900 hover:text-white
+  rounded-lg;
+}
 
 .btn {
   @apply px-6

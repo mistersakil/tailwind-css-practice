@@ -5,13 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/style.css" rel="stylesheet" />
   </head>
-  <body class="h-screen flex justify-center items-center bg-gray-400">
+  <body
+    class="h-screen flex flex-col justify-center items-center bg-gray-400 p-5"
+  >
+    <div
+      id="navbar"
+      class="bg-gray-600 w-screen m-5 h-20 rounded-lg flex justify-center items-center"
+    >
+      <nav class="bg-white h-full w-3/5 flex items-center justify-evenly">
+        <a href="/" class="navLink">One</a>
+        <a href="/" class="navLink">Two</a>
+        <a href="/" class="navLink">three</a>
+        <a href="/" class="navLink">four</a>
+      </nav>
+    </div>
     <div
       class="bg-slate-200 w-screen h-1/2 flex flex-col items-center justify-center m-5 rounded-xl"
     >
       <div class="bg-white p-10 w-80 flex flex-col space-y-1">
         <div class="flex space-x-2">
-          <h4 class="font-bold text-md text-gray-800">Contributors</h4>
+          <h4 class="font-bold text-gray-800">Contributors</h4>
           <span
             class="inline-block bg-slate-200 px-2 py-1 text-sm font-semibold text-gray-700 rounded-full"
             >204</span
