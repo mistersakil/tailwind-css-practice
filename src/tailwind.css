@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.img {
+  @apply w-10 
+  h-10
+  ring-2
+  ring-white
+  rounded-full;
+}
+
 .btn {
   @apply px-6
   py-1 
