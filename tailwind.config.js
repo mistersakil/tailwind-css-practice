@@ -3,7 +3,14 @@ module.exports = {
   darkMode: "media",
   content: ["*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gray: {
+          100: "red",
+          200: "blue",
+        },
+      },
+    },
   },
   plugins: [],
 };
