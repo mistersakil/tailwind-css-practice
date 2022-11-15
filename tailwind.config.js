@@ -8,6 +8,7 @@ module.exports = {
         gray: {
           100: "red",
           200: "blue",
+          1000: "orange",
         },
       },
     },
