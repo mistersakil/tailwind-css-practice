@@ -4,24 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css --watch"
+    "dev-t": "npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css --watch",
+    "dev": "npx postcss ./src/tailwind.css -o ./dist/style.css --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mistersakil/tailwind-css-practice.git"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "tailwindcss",
+    "tailwind"
+  ],
+  "author": "sakil.diu.cse@gmail.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mistersakil/tailwind-css-practice/issues"
-  },
-  "homepage": "https://github.com/mistersakil/tailwind-css-practice#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.1"
   },
   "dependencies": {
-    "g": "^2.0.1",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
     "yarn": "^1.22.19"
   }
 }
