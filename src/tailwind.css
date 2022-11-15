@@ -1,13 +1,13 @@
-/* @config "./tailwind.config.js"; */
+@config "./tailwind.config.js"; */
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities;
- */
-/* input::placeholder {
+
+ /* input::placeholder {
   object-fit: fill;
   hyphens: inherit;
   mask-image: url(splash.png);
-} */
+}  */
 
 /* @layer base {
   h1 {
